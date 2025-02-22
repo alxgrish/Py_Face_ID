@@ -14,7 +14,7 @@
 Для запуска проекта вам нужно установить несколько зависимостей. Для этого выполните команду:
 
 `bash
-pip install -r requirements.txt
+pip install -r requirements_dev.txt
 
 Зависимости
 
