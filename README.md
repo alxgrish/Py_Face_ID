@@ -48,9 +48,13 @@ python face_id_py_V3.1.py
 
 
 ## high Recomended usage ANACONCA 
+Anaconda Have all need pacages and correctly work on windows
 
 
-##Примечания
+
+
+
+## Примечания
 
 Для работы с камерой требуется корректно настроенная видеокамера на вашем устройстве.
 
