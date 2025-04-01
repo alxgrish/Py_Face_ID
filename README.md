@@ -1,64 +1,30 @@
-# Система Распознавания Лиц с Обновлением Эмбеддингов
+# Face Recognition System with Updated Embeddings
 
-Этот проект реализует систему распознавания лиц с использованием библиотеки face_recognition. Программа позволяет сканировать лица, распознавать их в реальном времени с возможностью обновления эмбеддингов раз в 30 секунд. Также предусмотрена возможность добавления, удаления пользователей и обновления списка пользователей в интерфейсе.
+This project implements a facial recognition system using the face_recognition library. The program allows you to scan faces and recognize them in real time with the ability to update embeddings every 30 seconds. It is also possible to add, delete users and update the list of users in the interface.
 
-## Описание
+## Description
 
-- Распознавание лиц: Программа использует камеру для захвата лиц и их распознавания с сохранением эмбеддингов.
-- Обновление эмбеддингов: Эмбеддинги пользователей обновляются каждые 30 секунд для повышения точности распознавания.
-- Графический интерфейс: Простое приложение на Tkinter, позволяющее взаимодействовать с системой (добавление, удаление пользователей, запуск процесса распознавания).
-- Высокая производительность: Использование оптимизированного процесса захвата изображений для поддержания стабильного FPS.
+- Face Recognition: The program uses a camera to capture faces and recognize them while preserving the embeddings.
+- Embeddings update: User embeddings are updated every 30 seconds to improve recognition accuracy.
+- Graphical interface: A simple Tkinter application that allows you to interact with the system (adding, deleting users, starting the recognition process).
+- High Performance: Using an optimized image capture process to maintain stable FPS.
 
-## Установка
+## Installation
 
-Для запуска проекта вам нужно установить несколько зависимостей. Для этого выполните команду:
-
-`bash
-pip install -r requirements_dev.txt
-
-Зависимости
-
-opencv-python — для захвата видео с камеры и обработки изображений.
-
-face_recognition — для распознавания лиц.
-
-numpy — для работы с массивами и математическими вычислениями.
-
-Pillow — для работы с изображениями в Tkinter.
+To run the project, you need to install several
 
 
-Использование
+# Face Recognition System with Updated Embeddings
 
-1. Запустите программу:
+This project implements a facial recognition system using the face_recognition library. The program allows you to scan faces and recognize them in real time with the ability to update embeddings every 30 seconds. It is also possible to add, delete users and update the list of users in the interface.
 
-python face_id_py_V3.1.py
+## Description
 
+- Face Recognition: The program uses a camera to capture faces and recognize them while preserving the embeddings.
+- Embeddings update: User embeddings are updated every 30 seconds to improve recognition accuracy.
+- Graphical interface: A simple Tkinter application that allows you to interact with the system (adding, deleting users, starting the recognition process).
+- High Performance: Using an optimized image capture process to maintain stable FPS.
 
-2. Интерфейс предложит следующие действия:
+## Installation
 
-Сканировать лицо: С помощью камеры сканируется лицо для создания эмбеддинга.
-
-Распознать лица: Программа будет распознавать лица в реальном времени, показывая их имена, если лицо найдено в базе.
-
-Удалить пользователя: Выберите пользователя из списка и удалите его.
-
-
-
-3. Каждые 30 секунд будут обновляться эмбеддинги для уже распознанных лиц.
-
-
-## high Recomended usage ANACONCA 
-Anaconda Have all need pacages and correctly work on windows
-
-
-
-
-
-## Примечания
-
-Для работы с камерой требуется корректно настроенная видеокамера на вашем устройстве.
-
-Включите поддержку dlib, если у вас возникают ошибки при установке face_recognition. Инструкции можно найти на странице установки face_recognition: https://github.com/ageitgey/face_recognition
-
-
-##exe в разработке
+To run the project, you need to install several dependencies
